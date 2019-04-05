@@ -1,0 +1,19 @@
+{
+  "license": "(MIT OR Apache-2.0)",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.0",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.1",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.11.1"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "test": "jest --env=node --colors test"
+  }
+}
